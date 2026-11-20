@@ -14,3 +14,9 @@ Light theme modeled on a clean, single-page product layout: soft gradient hero, 
 illustrations, pill buttons, and a short contact form. The brand colors come from the app (emerald `#10b981`, deep ink
 `#0a2a22`). Headlines use Poppins, self-hosted in `fonts/` (SIL Open Font License), so visitors make no Google Fonts
 requests. Illustrations in `images/` are SVG with sample data and are labeled as such.
+
+## Mascot
+
+A chubby cartoon chef wearing the same toque as the logo (puffy crown, banded base). He is original artwork drawn as SVG
+(`images/chef-*.svg`), in poses for the hero, the three intro cards, a "peek" over each feature panel, and the contact
+section. The share image (`images/og-image.png`) includes him. Decorative images use empty `alt` text.
