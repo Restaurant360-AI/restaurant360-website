@@ -3,23 +3,216 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Restaurant360 AI</title>
-<meta name="description" content="Autonomous restaurant intelligence and operations copilot.">
-<style>
-  :root { --bg: #ffffff; --fg: #111827; --muted: #4b5563; }
-  @media (prefers-color-scheme: dark) { :root { --bg: #0b1020; --fg: #f3f4f6; --muted: #9ca3af; } }
-  html, body { height: 100%; margin: 0; }
-  body { display: grid; place-items: center; background: var(--bg); color: var(--fg);
-         font-family: system-ui, -apple-system, "Segoe UI", sans-serif; padding: 0 16px; text-align: center; }
-  h1 { font-size: clamp(2rem, 6vw, 3.5rem); margin: 0 0 .5rem; }
-  p { color: var(--muted); font-size: 1.125rem; margin: 0; }
-</style>
+<title>Restaurant360 AI | Know your true prime cost, every day</title>
+<meta name="description" content="Restaurant360 AI brings point-of-sale sales, distributor invoices and true labor cost into one place, with an AI copilot that answers in plain English.">
+<meta name="theme-color" content="#09090b">
+<link rel="canonical" href="https://restaurant360ai.com/">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon-180x180.png">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Restaurant360 AI | Know your true prime cost, every day">
+<meta property="og:description" content="Sales, distributor invoices and labor in one place, with an AI copilot that answers in plain English.">
+<meta property="og:url" content="https://restaurant360ai.com/">
+<meta property="og:image" content="https://restaurant360ai.com/images/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <main>
-    <h1>Restaurant360 AI</h1>
-    <p>Autonomous restaurant intelligence and operations copilot.</p>
-    <p style="margin-top:1.5rem">Coming soon.</p>
-  </main>
+
+<header class="site-header">
+  <div class="container bar">
+    <a class="brand" href="#top" aria-label="Restaurant360 AI home">
+      <img src="assets/logo.svg" alt="" width="34" height="34">
+      <span>Restaurant360 <b>AI</b></span>
+    </a>
+    <nav aria-label="Primary">
+      <a href="#platform">Platform</a>
+      <a href="#ask">Ask 360</a>
+      <a href="#canvas">Canvas</a>
+      <a href="#trust">Security</a>
+    </nav>
+    <a class="btn btn-primary btn-sm" href="mailto:hello@restaurant360ai.com?subject=Restaurant360%20AI%20demo">Book a demo</a>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="container">
+      <p class="eyebrow">Artificial intelligence for restaurants</p>
+      <h1>Know your true prime cost.<br><span class="accent">Every day, not weeks after close.</span></h1>
+      <p class="lead">Restaurant360 AI brings your sales, distributor invoices and real labor cost into one place, then lets you ask it questions in plain English.</p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="mailto:hello@restaurant360ai.com?subject=Restaurant360%20AI%20demo">Book a demo</a>
+        <a class="btn btn-ghost" href="#platform">See how it works</a>
+      </div>
+      <figure class="shot hero-shot">
+        <img src="images/hero-dashboard.svg" alt="Restaurant360 AI dashboard showing food, paper, labor and prime cost against targets" width="1200" height="740">
+        <figcaption>Illustration with sample data.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="band">
+    <div class="container">
+      <h2 class="center">Four numbers decide whether a restaurant makes money</h2>
+      <p class="center sub">Restaurant360 AI tracks each one against a target, for every store, every day.</p>
+      <ul class="metrics">
+        <li><b>≤ 25%</b><span>Food cost</span></li>
+        <li><b>≤ 4.5%</b><span>Paper and packaging</span></li>
+        <li><b>≤ 28%</b><span>True labor</span></li>
+        <li><b>&lt; 60%</b><span>Prime cost</span></li>
+      </ul>
+      <p class="fine center">Default benchmark targets, as a percent of net sales. Targets are yours to change.</p>
+    </div>
+  </section>
+
+  <section id="platform" class="section">
+    <div class="container">
+      <h2 class="center">Getting started is simple</h2>
+      <p class="center sub">Your data already exists. Restaurant360 AI connects it, then does the math and the asking for you.</p>
+
+      <div class="sources" aria-label="Data flowing into one view">
+        <div class="source"><span class="dot"></span><h3>Sales</h3><p>Point-of-sale sales, by store and day</p></div>
+        <div class="source"><span class="dot"></span><h3>Distributor invoices</h3><p>Itemized lines, quantities and prices</p></div>
+        <div class="source"><span class="dot"></span><h3>Labor</h3><p>Hourly wages, overtime and salaried cost</p></div>
+        <div class="arrow" aria-hidden="true">→</div>
+        <div class="source result"><span class="dot"></span><h3>One true prime cost</h3><p>Plus an assistant that explains it</p></div>
+      </div>
+
+      <div class="cards">
+        <a class="card" href="#prime-cost">
+          <h3>Know your prime cost</h3>
+          <p>See food, paper and true labor against target, daily.</p>
+          <span class="more">Explore prime cost →</span>
+        </a>
+        <a class="card" href="#cogs">
+          <h3>Take control of COGS</h3>
+          <p>Itemized invoices, shipment calendar and price alerts.</p>
+          <span class="more">Explore COGS &amp; inventory →</span>
+        </a>
+        <a class="card" href="#ask">
+          <h3>Ask anything</h3>
+          <p>A chat assistant with live tools over your store's data.</p>
+          <span class="more">Explore Ask 360 →</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="prime-cost" class="feature">
+    <div class="container split">
+      <div class="copy">
+        <p class="kicker">Prime cost</p>
+        <h2>Food. Paper. Labor. One number.</h2>
+        <p class="problem">When prime cost surfaces weeks after month-end, the margin is already gone.</p>
+        <p>Restaurant360 AI computes it daily, with a labor figure that counts what a POS report leaves out.</p>
+        <ul class="ticks">
+          <li><b>True labor.</b> Hourly wages, overtime premium and salaried manager cost, amortized.</li>
+          <li><b>Targets built in.</b> Food, paper, labor and combined prime cost, each against its target.</li>
+          <li><b>Sales, labor schedule and reputation views</b> alongside the numbers.</li>
+        </ul>
+      </div>
+      <figure class="shot"><img src="images/feature-primecost.svg" alt="Prime cost broken into food, paper and true labor" width="900" height="640" loading="lazy"><figcaption>Illustration with sample data.</figcaption></figure>
+    </div>
+  </section>
+
+  <section id="cogs" class="feature alt">
+    <div class="container split reverse">
+      <div class="copy">
+        <p class="kicker">COGS &amp; inventory</p>
+        <h2>Every invoice. Every line. Every shipment.</h2>
+        <p class="problem">Distributor prices creep, and nobody reads fourteen invoice lines on a busy Thursday.</p>
+        <p>See each delivery on a calendar, drill into the line items, and get flagged when a price moves.</p>
+        <ul class="ticks">
+          <li><b>Shipment calendar</b> with itemized distributor invoices.</li>
+          <li><b>Burn trends and estimated depletion</b> to see what you are using.</li>
+          <li><b>Par overrides and CSV exports</b> for the way you already work.</li>
+          <li><b>Price watchdog</b> checks lines against recent history.</li>
+        </ul>
+      </div>
+      <figure class="shot"><img src="images/feature-cogs.svg" alt="Shipment calendar, itemized invoice and a price alert" width="900" height="640" loading="lazy"><figcaption>Illustration with sample data.</figcaption></figure>
+    </div>
+  </section>
+
+  <section id="ask" class="feature">
+    <div class="container split">
+      <div class="copy">
+        <p class="kicker">Ask 360</p>
+        <h2>Ask in plain English. Get the numbers.</h2>
+        <p class="problem">The answer is in your data, but finding it means a spreadsheet and an hour.</p>
+        <p>Ask 360 is a chat assistant with live tools over your store's data. It explains the why, not just the what.</p>
+        <ul class="ticks">
+          <li><b>Morning briefing, prime-cost summary and labor report</b> on request.</li>
+          <li><b>Distributor price watchdog</b> for invoice spikes.</li>
+          <li><b>Read-only access.</b> It can look at your data, never change it.</li>
+          <li><b>Low, Medium and High tiers</b>, from quick lookups to deep analysis.</li>
+        </ul>
+      </div>
+      <figure class="shot"><img src="images/feature-ask.svg" alt="Ask 360 explaining why labor ran high on a Thursday" width="900" height="640" loading="lazy"><figcaption>Illustration with sample data.</figcaption></figure>
+    </div>
+  </section>
+
+  <section id="canvas" class="feature alt">
+    <div class="container split reverse">
+      <div class="copy">
+        <p class="kicker">360 Canvas</p>
+        <h2>Describe it. Get the card.</h2>
+        <p class="problem">Every operator wants a slightly different view, and nobody wants to wait for a report.</p>
+        <p>Describe a KPI card, chart or table in plain English. Canvas builds it from your data.</p>
+        <ul class="ticks">
+          <li><b>Plain English in,</b> a working chart or table out.</li>
+          <li><b>Validated as read-only</b> before it ever runs.</li>
+          <li><b>Cached</b> so the view comes back fast.</li>
+        </ul>
+      </div>
+      <figure class="shot"><img src="images/feature-canvas.svg" alt="360 Canvas building a weekly food cost chart from a sentence" width="900" height="640" loading="lazy"><figcaption>Illustration with sample data.</figcaption></figure>
+    </div>
+  </section>
+
+  <section id="trust" class="section">
+    <div class="container">
+      <h2 class="center">Built for real financial data</h2>
+      <p class="center sub">Payroll, sales and vendor invoices are sensitive. The product treats them that way.</p>
+      <div class="cards three">
+        <div class="card static">
+          <h3>Roles that are enforced</h3>
+          <p>Owner, manager and member roles are checked on the server, not just hidden in the interface.</p>
+        </div>
+        <div class="card static">
+          <h3>Financials stay with owners</h3>
+          <p>Financial tables are blocked from non-owners in both the API and the chat tools.</p>
+        </div>
+        <div class="card static">
+          <h3>Read-only by design</h3>
+          <p>Questions run as read-only queries against your data. The assistant cannot change it.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="closing">
+    <div class="container">
+      <h2>Everything you need to run on real numbers</h2>
+      <ul class="closing-points">
+        <li>Connects your sales, invoices and labor</li>
+        <li>Calculates true prime cost against your targets</li>
+        <li>Answers questions and builds views in plain English</li>
+      </ul>
+      <a class="btn btn-primary" href="mailto:hello@restaurant360ai.com?subject=Restaurant360%20AI%20demo">Get started</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container foot">
+    <a class="brand" href="#top"><img src="assets/logo.svg" alt="" width="28" height="28"><span>Restaurant360 <b>AI</b></span></a>
+    <p>© 2026 Restaurant360 AI. All rights reserved.</p>
+    <a href="mailto:hello@restaurant360ai.com">hello@restaurant360ai.com</a>
+  </div>
+</footer>
+
 </body>
 </html>
