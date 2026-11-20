@@ -38,6 +38,9 @@ p { margin: 0; }
 .site-header nav { display: flex; gap: 32px; margin-left: auto; }
 .site-header nav a { font-size: .95rem; font-weight: 500; color: var(--text); }
 .site-header nav a:hover { color: var(--brand-ink); }
+.login-link { font-size: .78rem; color: var(--muted); white-space: nowrap; }
+.login-link u { text-underline-offset: 2px; }
+.login-link:hover { color: var(--brand-ink); }
 
 /* buttons: pills */
 .btn {
@@ -136,6 +139,7 @@ h2 { font-size: clamp(1.9rem, 3.4vw, 2.7rem); font-weight: 800; }
 @media (max-width: 640px) {
   body { font-size: 1rem; }
   .site-header nav { display: none; }
+  .login-link { display: none; }
   .bar { justify-content: space-between; height: 68px; }
   .stats { grid-template-columns: repeat(2, 1fr); gap: 20px; }
   .row { grid-template-columns: 1fr; }
