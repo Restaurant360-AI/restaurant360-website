@@ -32,7 +32,7 @@
       <a href="#canvas">Canvas</a>
       <a href="#trust">Security</a>
     </nav>
-    <a class="btn btn-primary btn-sm" href="mailto:hello@restaurant360ai.com?subject=Restaurant360%20AI%20demo">Book a demo</a>
+    <a class="btn btn-primary btn-sm" href="#contact">Book a demo</a>
   </div>
 </header>
 
@@ -44,7 +44,7 @@
       <h1>Know your true prime cost.<br><span class="accent">Every day, not weeks after close.</span></h1>
       <p class="lead">Restaurant360 AI brings your sales, distributor invoices and real labor cost into one place, then lets you ask it questions in plain English.</p>
       <div class="cta-row">
-        <a class="btn btn-primary" href="mailto:hello@restaurant360ai.com?subject=Restaurant360%20AI%20demo">Book a demo</a>
+        <a class="btn btn-primary" href="#contact">Book a demo</a>
         <a class="btn btn-ghost" href="#platform">See how it works</a>
       </div>
       <figure class="shot hero-shot">
@@ -192,15 +192,32 @@
     </div>
   </section>
 
-  <section class="closing">
-    <div class="container">
-      <h2>Everything you need to run on real numbers</h2>
-      <ul class="closing-points">
-        <li>Connects your sales, invoices and labor</li>
-        <li>Calculates true prime cost against your targets</li>
-        <li>Answers questions and builds views in plain English</li>
-      </ul>
-      <a class="btn btn-primary" href="mailto:hello@restaurant360ai.com?subject=Restaurant360%20AI%20demo">Get started</a>
+  <section id="contact" class="closing">
+    <div class="container contact-grid">
+      <div class="contact-copy">
+        <h2>Everything you need to run on real numbers</h2>
+        <ul class="closing-points">
+          <li>Connects your sales, invoices and labor</li>
+          <li>Calculates true prime cost against your targets</li>
+          <li>Answers questions and builds views in plain English</li>
+        </ul>
+        <p class="fine">Prefer email? Write to <a class="inline" href="mailto:inquiry@restaurant360ai.com">inquiry@restaurant360ai.com</a>.</p>
+      </div>
+
+      <form id="contact-form" class="form" action="https://forms.restaurant360ai.com/inquiry" method="post" novalidate>
+        <h3>Book a demo</h3>
+        <p class="form-sub">Tell us about your restaurants and we will be in touch.</p>
+        <div class="field"><label for="f-name">Name</label><input id="f-name" name="name" autocomplete="name" required maxlength="100"></div>
+        <div class="field"><label for="f-email">Work email</label><input id="f-email" name="email" type="email" autocomplete="email" required maxlength="254"></div>
+        <div class="row">
+          <div class="field"><label for="f-company">Company <span>(optional)</span></label><input id="f-company" name="company" autocomplete="organization" maxlength="120"></div>
+          <div class="field"><label for="f-locations">Locations <span>(optional)</span></label><input id="f-locations" name="locations" inputmode="numeric" maxlength="20"></div>
+        </div>
+        <div class="field"><label for="f-message">How can we help?</label><textarea id="f-message" name="message" rows="4" required maxlength="5000"></textarea></div>
+        <div class="hp" aria-hidden="true"><label>Leave this empty <input name="_hp_company_url" tabindex="-1" autocomplete="off"></label></div>
+        <button class="btn btn-primary" type="submit">Send inquiry</button>
+        <p id="form-status" class="status" role="status" aria-live="polite"></p>
+      </form>
     </div>
   </section>
 
@@ -210,9 +227,10 @@
   <div class="container foot">
     <a class="brand" href="#top"><img src="assets/logo.svg" alt="" width="28" height="28"><span>Restaurant360 <b>AI</b></span></a>
     <p>© 2026 Restaurant360 AI. All rights reserved.</p>
-    <a href="mailto:hello@restaurant360ai.com">hello@restaurant360ai.com</a>
+    <a href="mailto:inquiry@restaurant360ai.com">inquiry@restaurant360ai.com</a>
   </div>
 </footer>
 
+<script src="contact.js" defer></script>
 </body>
 </html>
