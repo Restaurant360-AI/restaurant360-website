@@ -241,3 +241,33 @@ h2 { font-size: clamp(1.9rem, 3.4vw, 2.7rem); font-weight: 800; }
   .band { padding: 56px 0; }
   .cta-row .btn-lg { width: 100%; }
 }
+
+/* optimization */
+.band-tint { background: linear-gradient(180deg, #f4fbff 0%, #e8faf3 100%); }
+.eyebrow-light { text-align: center; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; font-size: .85rem; color: var(--brand-ink); margin-bottom: 12px; }
+.opt-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
+.opt-card { padding: 26px 22px; border-radius: 22px; background: #fff; box-shadow: 0 18px 40px -28px rgba(10, 42, 34, .45); }
+.opt-card h3 { font-size: 1.15rem; margin-bottom: 10px; }
+.opt-card p { font-size: .97rem; color: var(--text); }
+.playbook { margin-top: 36px; display: grid; grid-template-columns: 1.2fr 1fr; gap: 48px; align-items: center; padding: 36px; border-radius: 28px; background: var(--ink); color: #d1fae5; }
+.playbook h3 { color: #fff; font-size: 1.6rem; margin-bottom: 12px; }
+.playbook p { color: #d1fae5; }
+.playbook-card .dot-green { background: var(--brand); }
+.playbook-card .alert-head { color: var(--brand-ink); }
+.alert-prices em.good { color: var(--brand-ink); }
+.playbook .alert-card p { color: var(--text); }
+
+/* people + reputation */
+.duo { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; }
+.duo-card { padding: 36px; border-radius: 24px; background: var(--gray); }
+.duo-card h2 { text-align: left; font-size: clamp(1.7rem, 2.6vw, 2.2rem); margin-bottom: 10px; }
+.duo-card .ticks { margin-bottom: 0; }
+
+@media (max-width: 1000px) {
+  .opt-grid { grid-template-columns: 1fr 1fr; }
+  .playbook, .duo { grid-template-columns: 1fr; gap: 28px; }
+}
+@media (max-width: 640px) {
+  .opt-grid { grid-template-columns: 1fr; }
+  .playbook, .duo-card { padding: 24px 20px; }
+}
