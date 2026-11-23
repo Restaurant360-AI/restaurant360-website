@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://restaurant360ai.com/sitemap.xml
