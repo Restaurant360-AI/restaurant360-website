@@ -6,7 +6,7 @@ Marketing site for [Restaurant360 AI](https://github.com/Restaurant360-AI/restau
 This repository is public. Keep it to marketing content only: no internal documentation, credentials or customer data.
 The application lives in `restaurant360-ai`, and DNS for the domain is managed in `restaurant360-infra`.
 
-Status: placeholder page.
+Status: live marketing page.
 
 ## Design
 

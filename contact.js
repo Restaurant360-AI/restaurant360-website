@@ -16,6 +16,10 @@
 
     var data = {};
     new FormData(form).forEach(function (v, k) { data[k] = v; });
+    // The inquiry API takes name, email, company, locations and message only,
+    // so the role rides along at the top of the message.
+    if (data.role) data.message = "I am a: " + data.role + "\n\n" + data.message;
+    delete data.role;
 
     button.disabled = true;
     say("Sending…");

@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Restaurant360 AI | Know your true prime cost, every day</title>
-<meta name="description" content="Restaurant360 AI brings point-of-sale sales, distributor invoices and true labor cost into one place, with an AI copilot that answers in plain English.">
+<meta name="description" content="Restaurant360 AI brings point-of-sale sales, distributor invoices and true labor cost into one place, with an AI copilot that answers in plain English. Built for multi-unit operators and franchisees.">
 <meta name="theme-color" content="#ffffff">
 <link rel="canonical" href="https://restaurant360ai.com/">
 <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
@@ -29,11 +29,13 @@
       <span>Restaurant360 <b>AI</b></span>
     </a>
     <nav aria-label="Primary">
+      <a href="#how">How it works</a>
       <a href="#platform">Platform</a>
       <a href="#ask">Ask 360</a>
+      <a href="#faq">FAQ</a>
       <a href="#contact">Contact</a>
     </nav>
-    <a class="btn btn-primary btn-sm" href="#contact">Get a demo</a>
+    <a class="btn btn-primary btn-sm" href="#contact">Free review</a>
     <a class="login-link" href="https://app.dev.restaurant360ai.com/">Have an account? <u>Log in</u></a>
   </div>
 </header>
@@ -43,7 +45,7 @@
   <section class="hero">
     <div class="container hero-grid">
       <div class="hero-copy">
-        <p class="eyebrow">Artificial intelligence for restaurants</p>
+        <p class="eyebrow">For multi-unit operators and franchisees</p>
         <h1>Know your true prime cost, every day</h1>
         <p class="lead">Your sales, distributor invoices and real labor cost in one place, with an assistant you can ask in plain English.</p>
         <ul class="stats" aria-label="Default benchmark targets">
@@ -53,7 +55,11 @@
           <li><b>&lt;60%</b><span>Prime cost</span></li>
         </ul>
         <p class="fine">Default targets, as a percent of net sales. Yours to change.</p>
-        <a class="btn btn-primary btn-lg" href="#contact">Book a demo</a>
+        <div class="cta-row">
+          <a class="btn btn-primary btn-lg" href="#contact">Get a free prime cost review</a>
+          <a class="btn btn-ghost" href="#how">See how it works</a>
+        </div>
+        <p class="fine cta-note">We connect one of your stores and show you the numbers. No commitment.</p>
       </div>
       <figure class="hero-shot">
         <img src="images/hero-dashboard.svg" alt="Restaurant360 AI dashboard showing food, paper, labor and prime cost against targets" width="1280" height="814">
@@ -63,10 +69,31 @@
     </div>
   </section>
 
+  <div id="how" class="band">
+    <div class="container">
+      <h2>From your data to your answer in three steps</h2>
+      <p class="intro-sub">You don't wire anything up yourself. We set up the connections with you.</p>
+      <ol class="steps">
+        <li><span class="num" aria-hidden="true">1</span><h3>Connect</h3><p>Point us at the systems you already use. Nothing to re-enter.</p></li>
+        <li><span class="num" aria-hidden="true">2</span><h3>See your real numbers</h3><p>Prime cost, true labor and every distributor invoice, calculated daily against your targets.</p></li>
+        <li><span class="num" aria-hidden="true">3</span><h3>Act on what changed</h3><p>Get flagged when a price moves or labor runs high, and ask why in plain English.</p></li>
+      </ol>
+      <div class="sources" aria-label="Data we bring together">
+        <p>Brings together</p>
+        <ul>
+          <li>POS sales</li>
+          <li>Sysco and distributor invoices</li>
+          <li>Payroll and labor schedules</li>
+          <li>Guest reviews</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
   <section id="platform" class="intro">
     <div class="container">
-      <h2>Getting started is simple</h2>
-      <p class="intro-sub">Connect the data you already have. Restaurant360 AI does the math, spots what changed, and answers your questions.</p>
+      <h2>What you get</h2>
+      <p class="intro-sub">Three tools on one set of numbers: your prime cost, your invoices and an assistant that knows both.</p>
       <div class="trio">
         <a class="trio-item" href="#prime-cost">
           <img class="trio-chef" src="images/chef-chart.svg" alt="" width="190" height="210" loading="lazy">
@@ -124,6 +151,24 @@
     </div>
   </section>
 
+  <div id="watchdog" class="band band-dark">
+    <div class="container watch-grid">
+      <div>
+        <p class="eyebrow-dark">Price watchdog</p>
+        <h2>Sysco raised chicken 8%. You find out the day the invoice lands.</h2>
+        <p>Every invoice line is compared with its recent history. When a price moves, you see the item, the old price, the new price and what it costs you, before the next order goes in.</p>
+        <a class="btn btn-primary" href="#contact">See it on your invoices</a>
+      </div>
+      <figure class="alert-card" aria-label="Sample price alert">
+        <div class="alert-head"><span class="dot" aria-hidden="true"></span>Price alert</div>
+        <p class="alert-item">Chicken breast, 40 lb case</p>
+        <p class="alert-prices"><s>$2.10/lb</s> <b>$2.27/lb</b> <em>+8.1%</em></p>
+        <p class="alert-meta">Compared with the recent average for this item</p>
+        <figcaption>Sample alert, not real data.</figcaption>
+      </figure>
+    </div>
+  </div>
+
   <section id="ask" class="feature">
     <div class="container split">
       <figure class="panel"><img class="peek peek-left" src="images/chef-peek.svg" alt="" width="150" height="160" loading="lazy"><img class="panel-img" src="images/feature-ask.svg" alt="Ask 360 explaining why labor ran high on a Thursday" width="968" height="708" loading="lazy"><figcaption>Illustration with sample data.</figcaption></figure>
@@ -142,31 +187,60 @@
     </div>
   </section>
 
+  <div id="faq" class="band">
+    <div class="container faq-wrap">
+      <h2>Questions operators ask first</h2>
+      <div class="faq">
+        <details>
+          <summary>Is my data safe?</summary>
+          <p>Restaurant360 AI reads your data and never changes it. Access is read-only, and three roles (owner, manager and member) are enforced on the server, so people only see what their role allows.</p>
+        </details>
+        <details>
+          <summary>How long does setup take?</summary>
+          <p>It depends on which systems you use. We confirm the connections and the timeline with you before anything starts, and we do the setup with you.</p>
+        </details>
+        <details>
+          <summary>What does it cost?</summary>
+          <p>Pricing is per location. Book a free review and we will quote it for your restaurants.</p>
+        </details>
+        <details>
+          <summary>Is this only for big chains?</summary>
+          <p>It is built for operators who cannot be in every store every day: franchisees and multi-unit groups. A single restaurant can ask too, and we will tell you honestly if it is a fit.</p>
+        </details>
+        <details>
+          <summary>Do I need to be technical?</summary>
+          <p>No. You ask in plain English, for example "why was labor high on Thursday?", and get the numbers and the reason.</p>
+        </details>
+      </div>
+    </div>
+  </div>
+
   <section id="contact" class="closing">
     <div class="container contact-grid">
       <div class="contact-copy">
-        <h2>Everything you need to run on real numbers</h2>
+        <h2>Get a free prime cost review</h2>
         <ul class="ticks">
-          <li>Connects your sales, invoices and labor</li>
-          <li>Calculates true prime cost against your targets</li>
-          <li>Answers questions and builds views in plain English</li>
+          <li>We connect one of your stores</li>
+          <li>You see true prime cost and any price creep on your invoices</li>
+          <li>No commitment, and no need to be technical</li>
         </ul>
         <p class="fine">Prefer email? Write to <a class="inline" href="mailto:inquiry@restaurant360ai.com">inquiry@restaurant360ai.com</a>.</p>
         <img class="contact-chef" src="images/chef-thumbs.svg" alt="" width="260" height="287" loading="lazy">
       </div>
 
       <form id="contact-form" class="form" action="https://forms.restaurant360ai.com/inquiry" method="post" novalidate>
-        <h3>Book a demo</h3>
-        <p class="form-sub">Tell us about your restaurants and we will be in touch.</p>
+        <h3>Request your free review</h3>
+        <p class="form-sub">Tell us a little about your restaurants and we will be in touch.</p>
         <div class="field"><label for="f-name">Name</label><input id="f-name" name="name" autocomplete="name" required maxlength="100"></div>
         <div class="field"><label for="f-email">Work email</label><input id="f-email" name="email" type="email" autocomplete="email" required maxlength="254"></div>
         <div class="row">
           <div class="field"><label for="f-company">Company <span>(optional)</span></label><input id="f-company" name="company" autocomplete="organization" maxlength="120"></div>
           <div class="field"><label for="f-locations">Locations <span>(optional)</span></label><input id="f-locations" name="locations" inputmode="numeric" maxlength="20"></div>
         </div>
-        <div class="field"><label for="f-message">How can we help?</label><textarea id="f-message" name="message" rows="4" required maxlength="5000"></textarea></div>
+        <div class="field"><label for="f-role">I am a</label><select id="f-role" name="role"><option value="">Choose one</option><option>Franchisee</option><option>Multi-unit operator</option><option>Independent owner</option><option>Accountant or consultant</option><option>Other</option></select></div>
+        <div class="field"><label for="f-message">What would you like to know about your numbers?</label><textarea id="f-message" name="message" rows="4" required maxlength="5000"></textarea></div>
         <div class="hp" aria-hidden="true"><label>Leave this empty <input name="_hp_company_url" tabindex="-1" autocomplete="off"></label></div>
-        <button class="btn btn-primary btn-block" type="submit">Send inquiry</button>
+        <button class="btn btn-primary btn-block" type="submit">Request my free review</button>
         <p id="form-status" class="status" role="status" aria-live="polite"></p>
       </form>
     </div>
